@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 65.2%;
+}
+body {
+  line-height: 1;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+.wrapper {
+  padding: 2%;
+  background-color: #fdf2e9;
+}
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+.heading-admin {
+  font-size: 3rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+}
+.admin-heading {
+  margin-left: 35rem;
+  margin-top: 6rem;
+  padding-right: 6rem;
+}
+.lists {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  align-items: center;
+}
+.head-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img {
+  height: 2.2rem;
+}
+.nav-link {
+  font-size: 2.5rem;
+}
+.link {
+  text-decoration: none;
+  color: #333;
+}
+.link:hover,
+.link:active {
+  color: #cf711f;
+}
+/******table ****/
+table {
+  width: 80rem;
+  margin-top: 2rem;
+
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 2rem;
+}
+thead th {
+  background-color: #087f5b;
+  width: 25%;
+  color: #fff;
+}
+.table {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  line-height: 1;
+  display: flex;
+  margin-left: 6rem;
+  font-size: 6rem;
+  font-weight: 600;
+  padding-right: 6rem;
+}
+.action {
+  text-align: center;
+}
+
+.add-link {
+  margin-left: 6rem;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #339af0;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
+  border-radius: 0.9rem;
+  transition: all 0.3s;
+}
+.add-link:hover,
+.add-link:active {
+  background-color: #1971c2;
+}
+.adm-btn {
+  display: inline-block;
+  width: 10rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.2rem;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+.upd-btn {
+  background-color: #39997c;
+}
+.upd-btn:hover,
+.upd-btn:active {
+  background-color: #087f5b;
+}
+.del-btn {
+  background-color: #f03e3e;
+}
+.del-btn:hover,
+.del-btn:active {
+  background-color: #c92a2a;
+}
+.th-add-admin {
+  font-size: 1.2rem;
+}
+
+/********form ***********/
+
+.cta-form label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  border-radius: 9px;
+  margin-bottom: 1.2rem;
+}
+.continer {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  text-decoration: none;
+  border-radius: 9px;
+  transition: all 0.3s;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #cf711f;
+}
+.center {
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+}
+.man-admin {
+  margin-left: 7rem;
+}
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.faild-message {
+  color: #c92a2a;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.img {
+  width: 7rem;
+  height: 7rem;
+}

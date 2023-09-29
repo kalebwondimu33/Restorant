@@ -1,0 +1,54 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.section-product {
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+.section-product_add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-product {
+  margin-bottom: 2rem;
+}
+label {
+  font-size: 1.6rem;
+}
+input {
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+textarea {
+  font-size: 1.3rem;
+}
+.desc {
+  margin-top: 0;
+}
+select {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: 3rem;
+}
+.add_pro {
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #e67e22;
+  color: #45260a;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.add_pro:hover,
+.add_pro:active {
+  background-color: #cf711f;
+  color: #fff;
+}

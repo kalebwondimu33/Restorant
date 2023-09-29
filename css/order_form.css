@@ -1,0 +1,21 @@
+.order-div {
+  width: 50%;
+  margin: 6rem auto;
+  background-color: #fdf2e9;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 9px;
+}
+.submit-btn {
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #e67e22;
+  font-size: 1.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+.submit-btn:hover,
+.submit-btn:active {
+  background-color: #cf711f;
+  color: #fdf2e9;
+}

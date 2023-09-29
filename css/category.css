@@ -1,0 +1,39 @@
+.section-category {
+  margin: 0 auto;
+  max-width: 30rem;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  font-family: "Rubik", sans-serif;
+  padding: 6rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 4.8rem rgba(150, 144, 144, 0.05);
+}
+label {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #45260a;
+}
+.form-group {
+  margin-bottom: 1.6rem;
+  font-size: 1.2rem;
+}
+input {
+  border: none;
+  padding: 0.3rem;
+  border-radius: 9px;
+}
+.add_cate {
+  padding: 0.8rem 1.3rem;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 2rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+.add_cate:hover,
+.add_cate:active {
+  background-color: #cf711f;
+  color: #fff;
+}

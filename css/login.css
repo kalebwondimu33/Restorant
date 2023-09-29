@@ -1,0 +1,33 @@
+.login-container {
+  max-width: 30rem;
+  margin: 4rem auto;
+  background-color: #fdf2e9;
+  text-align: center;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(150, 144, 144, 0.05);
+  border-radius: 9px;
+  font-family: "Rubik", sans-serif;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+.login {
+  padding: 0.6rem 3.2rem;
+  border: none;
+  color: #45260a;
+  background-color: #e67e22;
+  border-radius: 9px;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  transition: all 0.3s;
+}
+.title {
+  color: #112a46;
+  margin-bottom: 1.2rem;
+}
+.login:hover,
+.login:active {
+  background-color: #cf711f;
+  color: #fff;
+}
